@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#6F9283 ;
+}
+.heading {
+    background-color:rgb(23, 69, 69);
+    font-size: 2rem;
+    color: #CDC6A5;
+    text-align: center;
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading h1 {
+    padding-left: 320px;
+}
+.mode p {
+    cursor: pointer;
+}
+.dark-mode{
+    background-color: rgb(32, 31, 31);
+    color: white;
+}
+.light-mode {
+    background-color:#6F9283 ;
+}
+.heading:hover {
+    color: white;
+    background-color: rgb(23, 69, 69);
+    border: 2px solid white;
+}
+.display-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.display{
+    height: 80px;
+    width: 600px;
+    font-size: 2rem;
+    background-color: white;
+    border: 3px dashed black;
+    border-radius: 10px;
+    
+}
+#msg {
+    text-align: center;
+    line-height: 70px;
+    color: rgb(18, 189, 50);
+
+}
+.hide {
+    display: none;
+}
+.maincon{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+    color: red;
+    font-size: 5rem;
+    text-shadow: #6F9283;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.btn-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    
+   
+}
+.btn-con button {
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.8 ease-in;
+}
+.btn-con button:hover{
+    background-color: blue;
+    color: white;
+}
+.btn-con button:active {
+    border: 2px solid red;
+    transform: scale(1.07);
+    
+}
